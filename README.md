@@ -1,3 +1,5 @@
+
+!(https://github.com/singhindu87/Netflix_SQL_EDA/blob/main/netflix_image.jfif)
 # Netflix_SQL_EDA
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset.
 # Problem Statement
