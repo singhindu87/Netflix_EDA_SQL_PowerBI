@@ -209,8 +209,7 @@ WHERE top_genre_ranking <= 3;
 Netflix’s content library is diverse, rapidly growing, and geared toward mature audiences. Expanding content for children and international regions can further strengthen its global appeal.
 
 # Author:
-Indu Singh, Data Analyst.
-
+Indu Singh.
 LinkedIn: [Connect with me professionally](https://www.linkedin.com/in/singhindu87/)
 
 
