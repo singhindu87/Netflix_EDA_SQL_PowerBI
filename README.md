@@ -1,8 +1,16 @@
 ![Screenshot Netflix logo](https://github.com/singhindu87/Netflix_SQL_EDA/blob/main/netflix_image.jfif)
-# Netflix_SQL_EDA
-This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset.
+# Netflix_EDA
+This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL and Power BI. The goal is to extract valuable insights and answer various business questions based on the dataset.
+
 # Problem Statement
 The goal of this exploratory data analysis is to investigate the patterns, trends, and insights within the Netflix catalog of TV shows and movies. By investigating key factors such as genre, release year, runtime and cast details, we aim to cover correlation between content available and the key trends.
+
+Also create an engaging Power BI dashboard which delves deep into the data and presents impressive visually appealing dashboard to
+* Identifying Genres by Titles
+* Identifying Ratings by Show ID
+* Identifying Movies and TV Shows by Release Years
+* Total Number of Movies and TV Shows
+* Identifying Top 10 Countries by Movies and TV Shows 
 
 Understand Content Catalog: Analyze the distribution of Movies vs. TV Shows, genres, and countries to evaluate the diversity of Netflix’s offerings.
 Identify Content Trends: Examine release patterns over time to discover key trends in Netflix’s content production and acquisition.
@@ -27,6 +35,11 @@ Popular Genres and Directors: Identify the most successful genres, directors, an
 * duration				: namely, in minutes, or season
 * listed_in				: genre
 * description 		: description text about the show
+
+# Tools Used
+* PostgreSQL
+* Power BI
+  
 # Data Load
 ![Screenshot of data load](https://github.com/singhindu87/Netflix_SQL_EDA/blob/main/netflix_dataload.JPG)
 # PostgreSQL Create table script
@@ -184,9 +197,68 @@ WHERE top_genre_ranking <= 3;
 ```
 ![Screenshot of resultset](https://github.com/singhindu87/Netflix_SQL_EDA/blob/main/uc5_screenshot.png)
 
+# Power BI Dashboard
+Through Power BI, we delves deep into this ever-expanding universe of entertainment, providing valuable insights and illuminating patterns that can steer content strategies and viewer engagement. Data is imported from PostgreSQL table to Power BI for further visual investigation through a reporting dashboard. The dashboard presents data across various categories. It categorizes Netflix titles by Genre, Ratings, Location of Consumers and the Release Year. 
 
+## Charts used
+* Cards
+* Stacked Bar Chart
+* Donut
+* TreeMap
+* Stacked Area Chart
 
+![Screenshot of resultset](https://github.com/singhindu87/Netflix_SQL_EDA/blob/main/Netflix_Dashboard.PNG)
 
+# Findings and Conclusions :
+## Content Distribution:
+* Netflix offers more Movies than TV Shows.
+* Focuses on diverse content types to attract various audiences.
+## Global Content Presence:
+* Dominated by content from the U.S. and India.
+* Opportunity to expand content from underrepresented regions.
+## Release Year Trends:
+* Sharp increase in content production after 2015.
+* Aggressive growth in original content creation.
+## Rating Distribution:
+* Primarily targets mature audiences (TV-MA, TV-14).
+* Potential to expand content for younger viewers.
+## Genre Popularity:
+* Popular genres: Documentaries, Dramas, International TV Shows.
+* Diverse genres attract a wide range of viewers.
+## Key Contributors:
+* Some directors and actors are recurring in multiple shows/movies.
+* Expanding partnerships with new filmmakers could increase variety.
+## Content Duration:
+* Movies have standard durations; TV Shows vary widely in seasons.
+* Flexibility in content length caters to different viewing habits.
+# Conclusion:
+Netflix’s conte# Findings and Conclusions :
+## Content Distribution:
+* Netflix offers more Movies than TV Shows.
+* Focuses on diverse content types to attract various audiences.
+## Global Content Presence:
+* Dominated by content from the U.S. and India.
+* Opportunity to expand content from underrepresented regions.
+## Release Year Trends:
+* Sharp increase in content production after 2015.
+* Aggressive growth in original content creation.
+## Rating Distribution:
+* Primarily targets mature audiences (TV-MA, TV-14).
+* Potential to expand content for younger viewers.
+## Genre Popularity:
+* Popular genres: Documentaries, Dramas, International TV Shows.
+* Diverse genres attract a wide range of viewers.
+## Key Contributors:
+* Some directors and actors are recurring in multiple shows/movies.
+* Expanding partnerships with new filmmakers could increase variety.
+## Content Duration:
+* Movies have standard durations; TV Shows vary widely in seasons.
+* Flexibility in content length caters to different viewing habits.
+# Conclusion:
+Netflix’s content library is diverse, rapidly growing, and geared toward mature audiences. Expanding content for children and international regions can further strengthen its global appeal.
+# Author:
+Indu Singh.
+LinkedIn: [Connect with me professionally](https://www.linkedin.com/in/singhindu87/)
 
 
 
